@@ -3,7 +3,7 @@ package Rental;
 
 import BasicIO.*;
 
-
+// beginning of class 
 public class Car {
     
     
