@@ -1,0 +1,18 @@
+    private void setupForm ( ) {
+        
+        form.setTitle("Acme Rentals");
+        form.addTextField("licence","Licence",8,10,10);
+        form.addRadioButtons("cat","Category",true,10,40,Car.CATEGORIES);
+        form.addTextField("rate","Rate",getCurrencyInstance(),8,294,40);
+        form.setEditable("rate",false);
+        form.addTextField("oMileage","Rental Mileage",getIntegerInstance(),
+                          8,10,160);
+        form.setEditable("oMileage",false);
+        form.addTextField("nMileage","Returned Mileage",getIntegerInstance(),
+                          8,222,160);
+        form.addTextField("amt","Amount",getCurrencyInstance(),10,10,190);
+        form.setEditable("amt",false);
+        form.addTextField("msg","Message",45,10,220);
+        form.setEditable("msg",false);
+        
+    };  // setupForm
